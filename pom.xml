@@ -8,6 +8,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<netty.version>5.0.0.Alpha1</netty.version>
+		<netty4.version>4.1.91.Final</netty4.version>
 	</properties>
 
 	<build>
@@ -42,12 +44,12 @@
 		<dependency>
 			<groupId>io.netty</groupId>
 			<artifactId>netty-all</artifactId>
-			<version>5.0.0.Alpha1</version>
+			<version>${netty4.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>io.netty</groupId>
 			<artifactId>netty-example</artifactId>
-			<version>5.0.0.Alpha1</version>
+			<version>${netty4.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.protobuf</groupId>
